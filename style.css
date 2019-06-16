@@ -1,0 +1,95 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(1.jpg);
+  background-position:center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.menu .menulist{
+  margin: 30px;
+  float: right;
+  list-style-type: none;
+}
+
+.menu .menulist .list{
+  display: inline-block;
+}
+
+.menu .menulist .list a{
+  margin: 0px 5px;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.menu .menulist .list a:hover{
+  background-color: blue;
+  transition: 0.6s ease;
+  border: 1px solid blue;
+}
+
+.title{
+  text-align: center;
+}
+
+.title h1{
+  color:#fff;
+  font-size: 70px;
+  font-family: sans-serif;
+  font-style: normal;
+  position: absolute;
+  top:30%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.title p{
+  background :linear-gradient(yellow,red);
+  width: 800px;
+  color: transparent;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: normal;
+  position: absolute;
+  top:42%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h3{
+  color:#fff;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-style: normal;
+  position: absolute;
+  top:48%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.button a{
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-top:14px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.button a:hover{
+  color: #fff;
+  background-color: blue;
+  transition: 0.6s ease;
+  border: none;
+}
